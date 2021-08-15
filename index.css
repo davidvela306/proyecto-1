@@ -1,0 +1,66 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding:0;
+}
+header{
+    background-color: lightblue; 
+    height: 30px;
+}
+#user{
+    width: 20px;
+    height:20px;
+   margin:5px;
+}
+header li {
+   list-style:none;
+   display:inline;
+   margin: 5px;
+}
+#li1{
+    position: absolute;
+    top: 2px;
+    left:50px;
+}
+#li2{
+    position: absolute;
+    top: 2px;
+    left:130px;
+}
+a:link, a:visited{
+    text-decoration:none;
+background-color: coral;
+}
+#button-1{
+    position:absolute;
+    top:6px;
+    right: 20px;
+    background-color: springgreen;
+}
+h1{
+    text-align: center;
+    margin-bottom: 20px;
+}
+h2{
+    margin:20px 0 15px 0;
+}
+.parte1{
+    position: floating;
+    float:left;
+    width: 80%;
+}
+aside{
+    padding: 2%;
+    padding-left: 4%;
+    position: floating;
+    float: right;
+    width: 20%;
+    height: 900px;
+    border-left: solid 1px;    
+
+}
+#footer{
+    position: relative;
+    top: 400px;
+    text-align: center;
+}
